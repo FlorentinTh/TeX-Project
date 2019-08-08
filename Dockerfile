@@ -10,8 +10,6 @@ RUN chmod 775 /usr/local/bin/docker-entrypoint.sh
 
 RUN mkdir -p /tex
 
-COPY . ./tex
-
 WORKDIR /tex/src
 
 RUN cat ./Makefile | tr -d '\r' > ./Makefile.new
