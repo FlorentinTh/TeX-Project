@@ -1,4 +1,4 @@
-FROM florentinth/texlive-full:latest
+FROM florentinth/texlive-full:2019
 
 LABEL maintainer "Florentin Thullier <florentin.thullier1@uqac.ca>"
 
